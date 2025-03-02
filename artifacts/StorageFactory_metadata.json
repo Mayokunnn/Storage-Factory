@@ -11,62 +11,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "listOfSimpleStorageContracts",
-				"outputs": [
-					{
-						"internalType": "contract SimpleStorage",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_simpleStorageIndex",
-						"type": "uint256"
-					}
-				],
-				"name": "sfGet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_simpleStorageIndex",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_simpleStorageNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "sfStore",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -96,20 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStorage.sol": {
-			"keccak256": "0x6444cb8787d718036010072afd0722ab2a6a340e239c75d569858322d03c6b8e",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://8d854ba0e578a0f36001706147750068ce94bc3584b1b2b8cdd02ecd94642fc6",
-				"dweb:/ipfs/QmefKA74P25jqY2kh3oJjUTomdbFrhPfKQvCL8wAnzgzxT"
-			]
-		},
 		"StorageFactory.sol": {
-			"keccak256": "0x8fad23929c6776dc7d3daa402a62c80d76a0a22c7356e4414aa5aa0253c4cfda",
+			"keccak256": "0x6c4b9ab799457d1a4c420d82955d0634a2564c12736944f6f02712075cd792d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b04df7d49ce3d50eef6b836a89484153d872e78446efaeb97430aea97257f47d",
-				"dweb:/ipfs/QmeLJ2cRRd4drg2DzE7SbegEFb58NSz5pGFyRYrMWn4MU8"
+				"bzz-raw://3e7e9219b922cefe6d6b3247ffc6574e841026ed0d6e9712c3bbf879018fe1d6",
+				"dweb:/ipfs/QmRF5VqbX1u8mf4fFXGZhMuoHYRDUHbSy6F6Sm8GVpMWa5"
 			]
 		}
 	},
